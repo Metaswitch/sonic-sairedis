@@ -850,7 +850,7 @@ void AsicView::asicRemoveObject(
                 break;
 
             case SAI_OBJECT_TYPE_INSEG_ENTRY:
-                m_soInsegs.erase(currentObj->m_str_object_id);
+                m_soInsegs[currentObj->m_str_object_id] = currentObj;
                 break;
 
             default:
