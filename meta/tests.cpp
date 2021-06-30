@@ -1,4 +1,5 @@
 #include "sai_serialize.h"
+#include "sai_types.h"
 
 #include "OidRefCounter.h"
 #include "SaiAttrWrapper.h"
